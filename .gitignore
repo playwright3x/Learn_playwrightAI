@@ -1,0 +1,21 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated reports
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# macOS
+.DS_Store
