@@ -151,5 +151,12 @@ test("Assertion - Student Login", async ({ page }) => {
     // This executes only if the assertion passes
     await expect(loginButton).toBeEnabled();
 
+
+
+    //footer 
+   const footerLinks = page.locator("#footer-links a");
+   await expect(footerLinks).toHaveCount(16);
+
+
     await page.pause();
 });
